@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("api")
 public class FirstController {
     @GetMapping("test") public ResponseEntity<String> firstMethod(){
-        return ResponseEntity.ok("Hello world from frist controller");
+        return ResponseEntity.ok("Hello world from frist controller :1");
     }
 }
